@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -15,6 +16,7 @@ body {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 ul {
@@ -29,6 +31,56 @@ a {
     font-size: 18px;
 }
 
+.intro {
+    display: flex;
+    align-items: stretch;
+    background-color: #1F2937;
+    margin: -8px;
+    padding: 32px 16px;
+    flex: 1;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(109, 109, 109);
+    flex: 2;
+}
+
+.placeholder {
+    color: #E5E7EB;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 8px 0px;
+}
+
+.info-signup-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 8px;
+    align-self: flex-start;
+    padding: 8px 24px;
+    font-weight: bold;
+}
 
 .footer {
     display: flex;
