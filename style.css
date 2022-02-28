@@ -180,19 +180,25 @@ a {
     border-radius: 8px;
     display: flex;
     justify-content: space-evenly;
-    gap: 16px;
-    padding: 16px;
+    gap: 48px;
+    padding: 16px 48px;
 }
 
 .signup-text {
     display: flex;
     flex-direction: column;
     color: #F9FAF8;
-    margin-left: 24px;
+    margin-bottom: 0px;
 }
 
 .text-header {
     font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.text {
+    margin-top: 0px;
+    color: #E5E7EB;
 }
 
 .signup-button {
@@ -203,7 +209,6 @@ a {
     align-self: center;
     padding: 8px 24px;
     font-weight: bold;
-    margin-right: 24px;
 }
 
 /* footer */
